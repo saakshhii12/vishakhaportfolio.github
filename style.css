@@ -94,26 +94,6 @@ h1, h2, h3 { margin: 0; }
   overflow: hidden;
 }
 
-.hero__ticker {
-  background: var(--accent-crimson);
-  overflow: hidden;
-  white-space: nowrap;
-  padding: 8px 0;
-}
-.hero__ticker-track {
-  display: inline-flex;
-  gap: 14px;
-  animation: ticker 22s linear infinite;
-  font-family: var(--font-stat);
-  font-weight: 600;
-  font-size: 0.78rem;
-  letter-spacing: 0.1em;
-  color: #1a0507;
-}
-@keyframes ticker {
-  from { transform: translateX(0); }
-  to   { transform: translateX(-50%); }
-}
 
 .hero__main {
   max-width: var(--max-width);
