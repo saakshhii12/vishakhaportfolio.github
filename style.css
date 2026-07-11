@@ -364,6 +364,10 @@ h1, h2, h3 { margin: 0; }
   gap: 48px;
   align-items: center;
 }
+.leadership-grid--text-only {
+  grid-template-columns: 1fr;
+  max-width: 720px;
+}
 .leadership-copy p { color: var(--text-muted); margin-bottom: 20px; }
 .leadership-list li {
   list-style: none;
